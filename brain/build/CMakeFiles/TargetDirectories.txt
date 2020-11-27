@@ -1,3 +1,0 @@
-/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles/rebuild_cache.dir
-/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles/edit_cache.dir
-/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles/brain.dir
