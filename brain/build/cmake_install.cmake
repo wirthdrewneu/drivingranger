@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrew/Documents/Project/orig/cs5335-nm/brain
+# Install script for directory: /home/andrew/Documents/Project/orig/rangerdriving/brain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andrew/Documents/Project/orig/rangerdriving/brain/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

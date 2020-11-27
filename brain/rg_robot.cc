@@ -93,7 +93,7 @@ RgRobot::set_vel(double lvel, double rvel)
 cout << "Tank drive " << lvel << " , " << rvel << endl; 
     lvel = lvel * 50;
     rvel = rvel * 50;
-
+cout << "Tank drive " << lvel << " , " << rvel << endl;
     tank_drive(rvel, lvel);
 }
 

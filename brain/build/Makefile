@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/Documents/Project/orig/cs5335-nm/brain
+CMAKE_SOURCE_DIR = /home/andrew/Documents/Project/orig/rangerdriving/brain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/Documents/Project/orig/cs5335-nm/brain/build
+CMAKE_BINARY_DIR = /home/andrew/Documents/Project/orig/rangerdriving/brain/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles /home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles /home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

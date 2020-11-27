@@ -57,16 +57,17 @@ callback(Robot* robot)
 	  */
 	// robot->set_vel(-5.0, 5.0)
 
-	/*    stateCount++;
+	   /* stateCount++;
 	      std::cout << "state count: " << stateCount << '\n';
 	      if(stateCount < 3){
-	      robot->set_vel(1.5, 1.5);
+	      robot->set_vel(3, -3);
 	      } else if(stateCount < 6){
-	      robot->set_vel(-1.5, -1.5);
+	      robot->set_vel(3, 3);
 	      } else if(stateCount > 6 ){
 	      stateCount = 0;
-	      robot->set_vel(-1.5, 1.5);
-	      }*/
+	      robot->set_vel(0, 0);
+	      }
+	      return;*/
 	//cout << robot->get_noise_sensor() <<" "  << robot->get_robot_theta() << " "<< lastdir <<  endl;
 	pos_t = robot->get_robot_theta();
 	pos_x = robot->get_robot_x();
@@ -77,9 +78,9 @@ callback(Robot* robot)
 	int intx = round(pos_x);
 	int inty = round(pos_y); 	
 	int currentsound = robot->get_noise_sensor();
-	mapviz(round(pos_x),round(pos_y),currentsound);
+/*	mapviz(round(pos_x),round(pos_y),currentsound);
 	occgrid.insert(make_pair(make_pair(intx,inty),currentsound));
-
+*/
 
 	 SUM = SUM - READINGS[INDEX];       // Remove the oldest entry from the sum
   VALUE = currentsound;        // Read the next sensor value
@@ -110,6 +111,8 @@ callback(Robot* robot)
 	currentsound = 8;
 	maxsound = 9 ; 
 	cout << "Line Status " << linestatus <<" Current Sound " << currentsound << " Max Sound " << maxsound<<   " Pos_t " << pos_t <<  endl;
+//	robot->set_vel(3,-3);
+
 	if(linestatus==0){
     	 //	heading = robot->get_robot_theta();
     	 	sleep(1);
@@ -122,12 +125,12 @@ callback(Robot* robot)
 	else if (currentsound < maxsound  && lastdir == "forward" && lastsound != currentsound  ) {
 		turning =  true ;
 		if(abs(pos_t) > 2.5){
-			robot->set_vel(2, 2);
+			robot->set_vel(3, 3);
 			lastdir = "backward";
 			lastsound= currentsound;	
 		}
 		else{
-			robot->set_vel(1, 2);
+			robot->set_vel(-3, 3);
 	
 			
 			}
@@ -166,8 +169,7 @@ callback(Robot* robot)
 		else{
 			robot->set_vel(-1.75, 1.75);}
 
-	}
-	else {
+	}	else {
 		robot->set_vel(1.75, 1.75);
 
 	}
@@ -198,7 +200,7 @@ main(int argc, char* argv[])
 	int xsize = 1000;
 	char c;
 
-	gfx_open(xsize,ysize,"Example Graphics Program");
+/*	gfx_open(xsize,ysize,"Example Graphics Program");*/
 
 	if(bname == "gz_brain") {
 		std::cout << "making robot: Gazebo mode" << '\n';
@@ -216,12 +218,12 @@ main(int argc, char* argv[])
 	sleep(2);
 
 	robot->do_stuff();
-	while(1) {
+	/*while(1) {
 		// Wait for the user to press a character.
 		c = gfx_wait();
 
 		// Quit if it is the letter q.
-		if(c=='q') break;}
+		if(c=='q') break;}*/
 	delete robot;
 	return 0;
 }

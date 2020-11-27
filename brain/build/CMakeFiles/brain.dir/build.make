@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/Documents/Project/orig/cs5335-nm/brain
+CMAKE_SOURCE_DIR = /home/andrew/Documents/Project/orig/rangerdriving/brain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/Documents/Project/orig/cs5335-nm/brain/build
+CMAKE_BINARY_DIR = /home/andrew/Documents/Project/orig/rangerdriving/brain/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/brain.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/brain.dir/flags.make
 
 CMakeFiles/brain.dir/brain.cc.o: CMakeFiles/brain.dir/flags.make
 CMakeFiles/brain.dir/brain.cc.o: ../brain.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/brain.dir/brain.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/brain.cc.o -c /home/andrew/Documents/Project/orig/cs5335-nm/brain/brain.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/brain.dir/brain.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/brain.cc.o -c /home/andrew/Documents/Project/orig/rangerdriving/brain/brain.cc
 
 CMakeFiles/brain.dir/brain.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brain.dir/brain.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/cs5335-nm/brain/brain.cc > CMakeFiles/brain.dir/brain.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/rangerdriving/brain/brain.cc > CMakeFiles/brain.dir/brain.cc.i
 
 CMakeFiles/brain.dir/brain.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brain.dir/brain.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/cs5335-nm/brain/brain.cc -o CMakeFiles/brain.dir/brain.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/rangerdriving/brain/brain.cc -o CMakeFiles/brain.dir/brain.cc.s
 
 CMakeFiles/brain.dir/gz_robot.cc.o: CMakeFiles/brain.dir/flags.make
 CMakeFiles/brain.dir/gz_robot.cc.o: ../gz_robot.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/brain.dir/gz_robot.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/gz_robot.cc.o -c /home/andrew/Documents/Project/orig/cs5335-nm/brain/gz_robot.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/brain.dir/gz_robot.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/gz_robot.cc.o -c /home/andrew/Documents/Project/orig/rangerdriving/brain/gz_robot.cc
 
 CMakeFiles/brain.dir/gz_robot.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brain.dir/gz_robot.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/cs5335-nm/brain/gz_robot.cc > CMakeFiles/brain.dir/gz_robot.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/rangerdriving/brain/gz_robot.cc > CMakeFiles/brain.dir/gz_robot.cc.i
 
 CMakeFiles/brain.dir/gz_robot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brain.dir/gz_robot.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/cs5335-nm/brain/gz_robot.cc -o CMakeFiles/brain.dir/gz_robot.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/rangerdriving/brain/gz_robot.cc -o CMakeFiles/brain.dir/gz_robot.cc.s
 
 CMakeFiles/brain.dir/rg_robot.cc.o: CMakeFiles/brain.dir/flags.make
 CMakeFiles/brain.dir/rg_robot.cc.o: ../rg_robot.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/brain.dir/rg_robot.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/rg_robot.cc.o -c /home/andrew/Documents/Project/orig/cs5335-nm/brain/rg_robot.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/brain.dir/rg_robot.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/rg_robot.cc.o -c /home/andrew/Documents/Project/orig/rangerdriving/brain/rg_robot.cc
 
 CMakeFiles/brain.dir/rg_robot.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brain.dir/rg_robot.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/cs5335-nm/brain/rg_robot.cc > CMakeFiles/brain.dir/rg_robot.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/rangerdriving/brain/rg_robot.cc > CMakeFiles/brain.dir/rg_robot.cc.i
 
 CMakeFiles/brain.dir/rg_robot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brain.dir/rg_robot.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/cs5335-nm/brain/rg_robot.cc -o CMakeFiles/brain.dir/rg_robot.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/rangerdriving/brain/rg_robot.cc -o CMakeFiles/brain.dir/rg_robot.cc.s
 
 CMakeFiles/brain.dir/ranger-library.cc.o: CMakeFiles/brain.dir/flags.make
 CMakeFiles/brain.dir/ranger-library.cc.o: ../ranger-library.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/brain.dir/ranger-library.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/ranger-library.cc.o -c /home/andrew/Documents/Project/orig/cs5335-nm/brain/ranger-library.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/brain.dir/ranger-library.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/brain.dir/ranger-library.cc.o -c /home/andrew/Documents/Project/orig/rangerdriving/brain/ranger-library.cc
 
 CMakeFiles/brain.dir/ranger-library.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brain.dir/ranger-library.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/cs5335-nm/brain/ranger-library.cc > CMakeFiles/brain.dir/ranger-library.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/Documents/Project/orig/rangerdriving/brain/ranger-library.cc > CMakeFiles/brain.dir/ranger-library.cc.i
 
 CMakeFiles/brain.dir/ranger-library.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brain.dir/ranger-library.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/cs5335-nm/brain/ranger-library.cc -o CMakeFiles/brain.dir/ranger-library.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/Documents/Project/orig/rangerdriving/brain/ranger-library.cc -o CMakeFiles/brain.dir/ranger-library.cc.s
 
 # Object files for target brain
 brain_OBJECTS = \
@@ -233,7 +233,7 @@ brain: /usr/local/lib/libopencv_photo.so.4.5.0
 brain: /usr/local/lib/libopencv_imgproc.so.4.5.0
 brain: /usr/local/lib/libopencv_core.so.4.5.0
 brain: CMakeFiles/brain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable brain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable brain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/brain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +246,6 @@ CMakeFiles/brain.dir/clean:
 .PHONY : CMakeFiles/brain.dir/clean
 
 CMakeFiles/brain.dir/depend:
-	cd /home/andrew/Documents/Project/orig/cs5335-nm/brain/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/Documents/Project/orig/cs5335-nm/brain /home/andrew/Documents/Project/orig/cs5335-nm/brain /home/andrew/Documents/Project/orig/cs5335-nm/brain/build /home/andrew/Documents/Project/orig/cs5335-nm/brain/build /home/andrew/Documents/Project/orig/cs5335-nm/brain/build/CMakeFiles/brain.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/Documents/Project/orig/rangerdriving/brain/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/Documents/Project/orig/rangerdriving/brain /home/andrew/Documents/Project/orig/rangerdriving/brain /home/andrew/Documents/Project/orig/rangerdriving/brain/build /home/andrew/Documents/Project/orig/rangerdriving/brain/build /home/andrew/Documents/Project/orig/rangerdriving/brain/build/CMakeFiles/brain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/brain.dir/depend
 

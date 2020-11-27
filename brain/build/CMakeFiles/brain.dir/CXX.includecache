@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/brain.cc
+/home/andrew/Documents/Project/orig/rangerdriving/brain/brain.cc
 iostream
 -
 math.h
@@ -20,11 +20,11 @@ iterator
 map
 -
 robot.hh
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/robot.hh
+/home/andrew/Documents/Project/orig/rangerdriving/brain/robot.hh
 gfx.c
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/gfx.c
+/home/andrew/Documents/Project/orig/rangerdriving/brain/gfx.c
 
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/gfx.c
+/home/andrew/Documents/Project/orig/rangerdriving/brain/gfx.c
 X11/Xlib.h
 -
 unistd.h
@@ -34,11 +34,11 @@ stdio.h
 stdlib.h
 -
 gfx.h
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/gfx.h
+/home/andrew/Documents/Project/orig/rangerdriving/brain/gfx.h
 
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/gfx.h
+/home/andrew/Documents/Project/orig/rangerdriving/brain/gfx.h
 
-/home/andrew/Documents/Project/orig/cs5335-nm/brain/robot.hh
+/home/andrew/Documents/Project/orig/rangerdriving/brain/robot.hh
 gazebo/gazebo_config.h
 -
 gazebo/transport/transport.hh
